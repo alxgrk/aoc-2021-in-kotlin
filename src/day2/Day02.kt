@@ -1,5 +1,9 @@
 @file:Suppress("KotlinConstantConditions")
 
+package day2
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var horizontal = 0

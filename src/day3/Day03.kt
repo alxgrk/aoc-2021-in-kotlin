@@ -1,5 +1,9 @@
 @file:Suppress("NonAsciiCharacters")
 
+package day3
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         val rows = input.map { it.toCharArray() }

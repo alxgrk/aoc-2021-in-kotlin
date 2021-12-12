@@ -1,5 +1,9 @@
 @file:Suppress("NonAsciiCharacters")
 
+package day4
+
+import readInput
+
 data class Board(
     val rows: List<List<Int>>,
     val markedFields: List<MutableList<Boolean>> = buildList {

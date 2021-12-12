@@ -1,3 +1,6 @@
+package day5
+
+import readInput
 import kotlin.math.abs
 
 data class Point(
